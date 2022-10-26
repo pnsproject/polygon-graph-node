@@ -3,11 +3,11 @@ services:
   polygon-graph-node:
     image: graphprotocol/graph-node
     ports:
-      - '8000:10000'
-      - '8001:10001'
-      - '8020:10020'
-      - '8030:10030'
-      - '8040:10040'
+      - '10000:8000'
+      - '10001:8001'
+      - '10020:8020'
+      - '10030:8030'
+      - '10040:8040'
     environment:
       postgres_host: 172.17.0.1
       postgres_user: postgres
