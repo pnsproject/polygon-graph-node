@@ -14,6 +14,6 @@ services:
       postgres_pass: moneymoneyHOME888
       postgres_db: polygon-graphnode
       ipfs: '172.17.0.1:5001'
-      ethereum: 'mainnet:https://polygon-rpc.com/'
+      ethereum: 'LensHub:https://polygon-rpc.com/'
       GRAPH_LOG: warn
       GRAPH_ALLOW_NON_DETERMINISTIC_IPFS: 'true'
